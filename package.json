@@ -20,7 +20,7 @@
     "server": "nodemon server.js",
     "blog": "npm run start --prefix blog",
     "dev": "concurrently \"npm run server\" \"npm run blog\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd blog && npm install && npm run build"
   },
   "author": "",
   "license": "ISC"
