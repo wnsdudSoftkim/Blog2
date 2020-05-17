@@ -16,6 +16,14 @@ const corsOptions = {
 
 app.use(cors(corsOptions)); // config 추가
 
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static(path.join(__dirname, "blog/build")));
+  }
+  
+  
+  app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "blog/build", "index.html"));
+  });
 
 
 
