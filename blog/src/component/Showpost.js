@@ -76,7 +76,7 @@ function ShowPost() {
                                 <div className="Header" >
                                     <span className="title">
                                         {item.title}
-                                        {item._id}
+                                        
                                     </span>
                                     <span className="body">{item.body}</span>
                                 </div>

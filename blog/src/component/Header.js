@@ -18,7 +18,7 @@ function Header() {
 		Mdkey =<div>{<MdKeyboardArrowUp size = "30"></MdKeyboardArrowUp>}</div>
 	}
 	const GoHome =() => {
-		window.location.assign('http://localhost:3000')
+		window.location.assign('https://stark-hamlet-20836.herokuapp.com/')
 	}
 	const HeaderBlock = styled.div`
         position:relative;

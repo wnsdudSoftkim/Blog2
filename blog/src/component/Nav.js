@@ -16,6 +16,7 @@ const SidePageBlock = styled.div`
 	width:50%;
 	height:100%;
 	background:#f1f3f5;
+	overflow-y:scroll;
 	@media(max-width:768px) {
 		z-index:300;
 		background:#f8f8f8;
@@ -113,8 +114,7 @@ function Nav({Toggle}) {
 			<SidePageBlock>
 				<SideBox>
 					<UlBlock>
-						<div className="list-item">전체보기</div>
-						<div className="list-item">전체보기</div>
+						
 						<div className="list-item">전체보기</div>
 						<div className="list-item">전체보기</div>
 					</UlBlock>
@@ -122,7 +122,7 @@ function Nav({Toggle}) {
 						<div className="UserBlock">
 							<img src= {user} alt="jun" />
 						</div>
-						<p className="Text">People can't do something themselves they wanna tell you<br /> you can't do it<br /> If you want somethin`, go get it </p>
+						<p className="Text">test<br /> test<br />test </p>
 						<p className="instagram" onClick={() => {window.location.assign("https://www.instagram.com/c_mongkey/?hl=ko")}}>
 							<img className="img" size ="10" src={instagram} alt="인스타"  />
 							<p>c_mongkey</p>
