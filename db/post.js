@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient
 const assert = require('assert')
-const url = "mongodb://localhost:27017"
-const dbname = "post"
+const url = " mongodb://heroku_xfxjz14g:u6lgohfk5hgb7rrnh6jn684oeg@ds035177.mlab.com:35177/heroku_xfxjz14g"
+const dbname = "heroku_xfxjz14g"
 const ObjectId = require('mongodb').ObjectId
 
 module.exports= {
