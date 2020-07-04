@@ -1,2 +1,2 @@
 # Blog2
-Using C-R-A &amp;&amp; Express to make blog
+CRA , Express , MongoDB 로 만든 개인 웹페이지
